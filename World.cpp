@@ -1,15 +1,24 @@
 #include <iostream>
 
-int Best()
+int birth()
 {
-    int poopoo = 7 * 887 / 239;
-    int Trevor = 3 * 123 / 4;
-    int Tucker = Trevor * poopoo;
+    return 4;
+}
+int x()
+{
+    int y = 24;
+    return y;
+}
+int Best(int trevor, int poopoo)
+{
+    int Tucker = trevor * poopoo;
     return Tucker;
 }
 int main()
 {
-    int Tucker = Best();
-    std::cout << ("%i", Tucker);
+    int z = x();
+    int i = birth();
+    int T = Best(i, z);
+    std::cout << ("%i", T);
     return 0;
 }
